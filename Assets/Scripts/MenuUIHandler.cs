@@ -15,7 +15,7 @@ public class MenuUIHandler : MonoBehaviour
     {
         
     }
-    /*
+    
     public void PickVan() {
         DataManager.Instance.vehilveType = "Van";
         SceneManager.LoadScene(1);
@@ -38,6 +38,4 @@ public class MenuUIHandler : MonoBehaviour
             Application.Quit();
         #endif
     }
-    */
-
 }
