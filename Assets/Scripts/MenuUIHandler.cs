@@ -9,25 +9,19 @@ using UnityEngine.SceneManagement;
 
 [DefaultExecutionOrder(1000)]
 public class MenuUIHandler : MonoBehaviour
-{
-    
-    void Start()
-    {
-        
-    }
-    
+{    
     public void PickVan() {
-        DataManager.Instance.vehilveType = "Van";
+        DataManager.Instance.vehicleType = 2;
         SceneManager.LoadScene(1);
     }
 
     public void PickBus() {
-        DataManager.Instance.vehilveType = "Bus";
+        DataManager.Instance.vehicleType = 0;
         SceneManager.LoadScene(1);
     }
 
-    public void PickPlane() {
-        DataManager.Instance.vehilveType = "Plane";
+    public void PickCar() {
+        DataManager.Instance.vehicleType = 1;
         SceneManager.LoadScene(1);
     }
 

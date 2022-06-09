@@ -6,7 +6,7 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager Instance;
 
-    public string vehilveType; // mb change to veh class
+    public int vehicleType; 
 
     private void Awake()
     {
